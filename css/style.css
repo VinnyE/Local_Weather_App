@@ -1,0 +1,74 @@
+/** global config **/
+html {
+  font-size: 1rem;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.25;
+  background: #1E2A36;
+  color: #1E2A36;
+}
+
+/** Weather formatting **/
+
+.weather-container {
+  background: #fff;
+  width: 25em;
+  height: 25em;
+  border-radius: 10px;
+  margin: 10% auto 0 auto;
+  padding: .75em;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.display-temp {
+  text-align: center;
+}
+h1 {
+  font-size: 2.441rem;
+  font-weight: 300;
+}
+h2 {
+  font-weight: 300;
+  line-height: 1;
+  font-size: 1.563rem;
+  padding-left: 2px;
+  padding-bottom: .5em;
+  border-bottom: 2px solid #1E2A36;
+  word-spacing: -.05em;
+}
+i {
+  color: #1E2A36;
+  font-size: 8rem;
+  margin: .25em 0 .25em 0;
+}
+p {
+  font-size: 1.5rem;  
+}
+#temperature {
+  display: inline-block;
+}
+button {
+  font-family: inherit;
+  font-size: 1.25rem;
+  outline: none;
+  border: none;
+  border-radius: .5em;
+  padding: .10em .25em .10em .25em;
+  margin-left: .5em;
+  background: #1E2A36;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 31.25em) {
+  html {
+    font-size: .8rem;
+  }
+}
